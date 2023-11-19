@@ -1,0 +1,19 @@
+.footer__task-count {
+    margin-right: 40px;
+}
+  
+.footer__kanban-credits {
+    margin-left: auto;
+}
+
+.footer__kanban-author {
+    color: #fff;
+    margin-left: 5px;
+    text-decoration: none;
+    transition: all 100ms cubic-bezier(0.4, 0, 1, 1);
+}
+
+.footer__kanban-author:hover {
+    color: #060044;
+    text-shadow: #FFF 0px 0 20px;;
+}

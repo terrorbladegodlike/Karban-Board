@@ -1,0 +1,64 @@
+.modal {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 100px;
+  left: 0;
+}
+
+.modal__wrap {
+  position: relative;
+  width: 100%;
+  max-height: 600px;
+  background-color: #fff;
+  padding: 30px;
+  margin: 0 30px;
+  border-radius: 5px;
+}
+
+.modal__title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.modal__text {
+  padding: 20px;
+  width: 80%;
+  height: 80%;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 21px;
+  font-family: 'Roboto';
+  transition: all 200ms cubic-bezier(0.4, 0, 1, 1);
+}
+
+.modal__text:hover {
+  cursor: auto;
+  background-color: #EBECF0;
+}
+
+.modal__text:focus {
+  outline: none;
+}
+
+.modal__btn {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  display: flex;
+  padding: 5px;
+  background: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 200ms cubic-bezier(0.4, 0, 1, 1);
+}
+
+.modal__btn:hover {
+  background-color: #EBECF0;
+  transform: scale(1.05);
+}
